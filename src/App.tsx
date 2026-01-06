@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { ThreeModel } from "./components/ThreeModel";
 export const App = () => {
   return (
     <main className="h-screen bg-slate-900">
@@ -76,6 +77,9 @@ export const App = () => {
             </div>
           
             {/* right */}
+            <div>
+              <ThreeModel />
+            </div>
           </div>
         </section>
       </div>
